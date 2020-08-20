@@ -1,0 +1,15 @@
+current directory: /Users/jittu/study/rails/ProjectP/yumemi/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+/Users/jittu/.rbenv/versions/2.6.0/bin/ruby -I /Users/jittu/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20200819-72957-17h6rj2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jittu/study/rails/ProjectP/yumemi/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/jittu/study/rails/ProjectP/yumemi/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/jittu/study/rails/ProjectP/yumemi/vendor/bundle/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200819-72957-1tvsh7e/bootsnap

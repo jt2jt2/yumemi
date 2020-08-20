@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="ja">
+    <head>
+    <title>yumemi</title>
+    </head>
+    <body>
+    <button id="btn">button</button>
+    </body>
+    <script>
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function() {
+            const xmlHttpRequest = new XMLHttpRequest();
+            xmlHttpRequest.withCredentials = true;
+            xmlHttpRequest.open("GET", 'http://localhost:3000/api/v1/posts', true);
+            xmlHttpRequest.send();
+            xmlHttpRequest.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    alert(this.responseText);
+                }
+            }   
+        },false);
+        </script>
+</html>
